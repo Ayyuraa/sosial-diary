@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sosial Diary</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Sosial Diary</h1>
+  <form id="postForm">
+    <input type="text" id="judul" placeholder="Judul Cerita" required />
+    <textarea id="isi" placeholder="Tulis Cerita Anda..." required></textarea>
+    <input type="text" id="pengarang" placeholder="Nama Pengarang" required />
+    <button type="submit">Post Cerita</button>
+  </form>
+  <h2>Cerita Terbaru</h2>
+  <div id="ceritaList"></div>
+  <script src="app.js"></script>
+</body>
+</html>
